@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\EXE202\\Quik_BookingApp\\Quik_BookingApp\\wwwroot\\Upload\\space001\\space001.png",
+      "PackagePath": "staticwebassets\\Upload\\space001\\space001.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Quik_BookingApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Quik_BookingApp.props",
+      "PackagePath": "build\\Quik_BookingApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Quik_BookingApp.props",
+      "PackagePath": "buildMultiTargeting\\Quik_BookingApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Quik_BookingApp.props",
+      "PackagePath": "buildTransitive\\Quik_BookingApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

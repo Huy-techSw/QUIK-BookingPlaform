@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "pfy1ZLWHK82BaCbOf4BtpFk+zjTiu0hhYbbTp3S7G5g=",
+  "Source": "Quik_BookingApp",
+  "BasePath": "_content/Quik_BookingApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Quik_BookingApp\\wwwroot",
+      "Source": "Quik_BookingApp",
+      "ContentRoot": "D:\\EXE202\\Quik_BookingApp\\Quik_BookingApp\\wwwroot\\",
+      "BasePath": "_content/Quik_BookingApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\EXE202\\Quik_BookingApp\\Quik_BookingApp\\wwwroot\\Upload\\space001\\space001.png",
+      "SourceId": "Quik_BookingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\EXE202\\Quik_BookingApp\\Quik_BookingApp\\wwwroot\\",
+      "BasePath": "_content/Quik_BookingApp",
+      "RelativePath": "Upload/space001/space001.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\space001\\space001.png"
+    }
+  ]
+}

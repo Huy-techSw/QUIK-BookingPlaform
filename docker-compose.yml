@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  quik_bookingapp:
+    build:
+      context: .
+      dockerfile: Quik_BookingApp/Dockerfile
+    ports:
+        - 8080:8080
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Production
+        - ASPNETCORE_URLS=http://+:8080
+        
+  mssql:
+    container_name: sql-server
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    #image: mcr.microsoft.com/mssql/server:2017-CU11-ubuntu
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "StrongPassword123!"
+    ports:
+      - 1433:1433
+    volumes:
+      - my-volume:/var/opt/mssql
+      
+volumes:
+  my-volume:
