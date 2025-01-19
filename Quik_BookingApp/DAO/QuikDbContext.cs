@@ -115,6 +115,11 @@ namespace Quik_BookingApp.DAO
                 .HasForeignKey(r => r.SpaceId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            modelBuilder.Entity<Booking>().Property(b => b.TotalAmount).HasPrecision(18, 2);
+            modelBuilder.Entity<Booking>().Property(b => b.DepositAmount).HasPrecision(18, 2);
+            modelBuilder.Entity<Booking>().Property(b => b.RemainingAmount).HasPrecision(18, 2);
+            modelBuilder.Entity<WorkingSpace>().Property(ws => ws.PricePerHour).HasPrecision(18, 2);
+
             modelBuilder.Entity<User>().HasData(
                  new User
                  {
